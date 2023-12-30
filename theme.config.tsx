@@ -4,14 +4,13 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: <span>My Project</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/Zinedinarnaut/hanime-api',
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://discord.gg/XD4ZpY6gc9',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
-    text: 'Nextra Docs Template',
+    text: '2024 - Araxyso',
   },
 }
 
