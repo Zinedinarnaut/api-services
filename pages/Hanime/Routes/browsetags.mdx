@@ -1,0 +1,33 @@
+# Get browse Tags
+
+Description
+This endpoint allows you to retrieve a list of browse tags available in the Hanime API. Browse tags are labels associated with hentai content, and they can be used to categorize and filter videos based on specific themes, genres, or characteristics.
+
+Example request:
+
+```
+GET https://hanime-api-five.vercel.app/tags
+```
+
+Output >>
+
+```json
+
+{
+  "results": [
+    {
+      "id": "123",
+      "text": "Hd",
+      "url": "/tags/hd/0"
+    },
+    {
+      "id": "456",
+      "text": "censord",
+      "url": "/tags/censord/0"
+    },
+    {...}
+  ]
+}
+
+
+```

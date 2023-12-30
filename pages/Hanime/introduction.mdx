@@ -1,0 +1,59 @@
+---
+title: Introduction
+---
+
+# Hanime API Documentation
+
+Welcome to the documentation for the **Hanime API**, a robust hentai streaming API that provides access to a diverse range of content. This API is designed to offer developers a seamless way to integrate and retrieve information about trending videos, browse tags, explore specific tags, and get details about individual videos.
+
+## Overview
+
+The **Hanime API** is a powerful tool for developers seeking to build applications, websites, or services around hentai content. With a simple and intuitive set of endpoints, developers can access a wealth of information to enhance their projects.
+
+## Getting Started
+
+To get started with local development, follow these steps:
+
+1. Clone the repository:
+
+```sh
+$ git clone https://github.com/zinedinarnaut/hanime-api.git
+$ cd hanime-api
+```
+Install dependencies:
+```sh
+$ npm install # or yarn install
+```
+Start the server:
+```sh
+$ node src/app.js # or node .
+```
+Now you're ready to explore the Hanime API and integrate it into your applications.
+
+API Routes
+Get Trending: Retrieve information about trending videos based on different time periods.
+Get Browse Tags: Explore a list of tags available for browsing.
+Get Tags: Get a list of videos associated with a specific tag category.
+Get Video: Retrieve detailed information about a specific video, including streams, tags, and related episodes.
+For detailed information on each route, refer to the Routes section of the documentation.
+
+Example Requests
+Here are some example requests to give you an idea of how to interact with the API:
+
+Get Trending:
+```
+GET http://localhost:3000/trending/day/1
+```
+Get Browse Tags:
+```
+GET http://localhost:3000/tags
+```
+Get Tags:
+```
+GET http://localhost:3000/hentai-tags/har**/1
+```
+Get Video:
+```
+GET http://localhost:3000/watch/overflow
+```
+Feel free to explore the API and customize it to fit your project's requirements. If you have any questions or need assistance, refer to the Issues section of the repository.
